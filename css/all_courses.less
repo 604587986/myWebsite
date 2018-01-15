@@ -1,0 +1,36 @@
+@import "bootstrap/bootstrap.less";
+@import "header&footer";
+
+.main {
+  margin-top: @navbar-height+10;
+  .course-list {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top:20px;
+    padding-top: 40px;
+    padding-left:10px;
+    padding-right:10px;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+    font: bold 18px/20px arial,sans-serif;
+    color: #000;
+    background-image: url(../images/book.jpg);
+    background-size: 100% 100%;
+    &:hover{
+      border: 8px solid #ff0f09;
+      line-height:30px;
+    }
+  }
+  .count{
+    display: inline-block;
+    padding: .2em .6em .3em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    width: 100%;
+    background-color: #ff0f09;
+  }
+}

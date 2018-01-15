@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>课程点评</title>
+    <link rel="icon" href="images/1.ico"/>
+    <link href="css/index.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</head>
+<body>
+
+<div class="header" id="header">
+    <img src="images/loading.gif">
+</div>
+
+
+<!--main部分开始-->
+<div class="main" id="main">
+    <!--轮播开始-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="null">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-responsive" src="images/1.jpeg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="images/2.jpeg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="images/3.jpeg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="images/4.jpeg">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="images/5.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--轮播结束-->
+    <!--课程列表部分-->
+    <div class="container">
+        <h3>课程列表</h3>
+        <div class="row" id="12courses"></div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="all_courses.html" class="btn btn-danger btn-block">查看更多</a>
+            </div>
+        </div>
+        <!--最新评论部分-->
+        <h3>最新评论</h3>
+        <div id="latest-eval"></div>
+    </div>
+</div>
+
+<!--main部分结束-->
+
+
+<div class="footer" id="footer">
+    <img src="images/loading.gif">
+</div>
+
+
+<div id="modal"></div>
+
+</body>
+
+</html>

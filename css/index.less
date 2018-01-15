@@ -1,0 +1,36 @@
+@import "bootstrap/bootstrap.less";
+@import "header&footer.less";
+//轮播图开始
+  .carousel{
+    img{
+      margin: 0 auto;
+    }
+  }
+//轮播图结束
+
+.main{
+  margin-top:@navbar-height+10;
+  .course-list{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height: 88px;
+    padding-top:20px ;
+    padding-left:10px;
+    padding-right: 10px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: #ddd 0 -5px 10px 0;
+    border: 2px solid #eee;
+    background-color: #dd5420;
+    color:#fff;
+    transition: all 0.3s linear;
+    &:hover{
+      background-color: #ff1318;
+      box-shadow: #dd181e 0 -5px 10px 0;
+      text-align: center;
+      font-size: 18px;
+      font-weight:600;
+    }
+  }
+}
